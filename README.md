@@ -1,5 +1,10 @@
 # jest-1780
 
+Versions tested:
+
+* Now correct output: react-scripts 0.8.1 and **Jest 17.0.2**
+* Was incorrect output: react-scripts 0.7.0 and Jest 16.0.2
+
 Snapshot with instrumentation code in it https://github.com/facebook/jest/issues/1780
 
 Here is an attempt at a minimal reproducing case for the way I just saw this.

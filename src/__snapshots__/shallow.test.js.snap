@@ -2,13 +2,11 @@ exports[`J as a stick figure consists of LineV and LineH components 1`] = `
 <g
   stroke="#f7df1e"
   strokeWidth={0.09523809523809523}>
-  <( /* istanbul ignore next */_ref2) => /* istanbul ignore next */{let x = _ref2.x;let y1 = _ref2.y1;let y2 = _ref2.y2;return (
-      /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */'line', /* istanbul ignore next */{ x1: x, x2: x, y1: y1, y2: y2, __source: { fileName: _jsxFileName, lineNumber: 9 }, __self: undefined }));}
+  <LineV
     x={0.5}
     y1={0.4603174603174603}
     y2={0.875} />
-  <( /* istanbul ignore next */_ref) => /* istanbul ignore next */{let x1 = _ref.x1;let x2 = _ref.x2;let y = _ref.y;return (
-      /* istanbul ignore next */_react2.default.createElement( /* istanbul ignore next */'line', /* istanbul ignore next */{ x1: x1, x2: x2, y1: y, y2: y, __source: { fileName: _jsxFileName, lineNumber: 4 }, __self: undefined }));}
+  <LineH
     x1={0.5}
     x2={0.25}
     y={0.875} />
